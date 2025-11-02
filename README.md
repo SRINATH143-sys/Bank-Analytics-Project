@@ -93,6 +93,6 @@ This Bank Analytics project demonstrates how business insights can be extracted 
 **Srinadh Yadav**
 Data Analyst | Excel | Power BI | Tableau | SQL
 📧 [yadavsrinadh4@gmail.com]
-🌍 [(https://github.com/SRINATH-sys)]
+🌍 [(https://github.com/SRINATH143-sys)]
 
 

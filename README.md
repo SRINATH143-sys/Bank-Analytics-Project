@@ -1,15 +1,98 @@
-### 📊 Dashboard Preview (Excel Dashboard)
+# Bank Analytics Project
 
-The **Bank Analytics Dashboard** was created in **Microsoft Excel** using pivot tables, slicers, and charts.  
-It visualizes key metrics such as total payments, interest, funded amount, and loan amount across different **age groups, states, and customer categories**.
+## 📘 Project Overview
 
-Screenshot (36).png
+This project focuses on analyzing bank loan and transaction data using **Excel, SQL, Power BI, and Tableau**. The goal is to identify trends in loan disbursement, recovery rates, and customer demographics to provide data-driven insights for banking decisions.
 
-**Key Features:**
-- Interactive slicers for Grade, State, Caste, and Age  
-- KPIs: Total Payments, Total Interest, Funded Amount, and Loan Amount  
-- Visual breakdowns by region, age group, and loan status  
-- Pie charts and trend lines for deeper insights  
+---
 
-This Excel dashboard provides a quick overview of **loan performance, recoveries, and payment trends**, helping banks monitor financial health efficiently.
+## 🧩 Tools & Technologies Used
+
+* **Microsoft Excel** – Data cleaning and initial exploration
+* **SQL** – Querying and analyzing structured bank data
+* **Power BI** – Building interactive dashboards for insights
+* **Tableau** – Visual storytelling and trend analysis
+
+---
+
+## 📊 Power BI Dashboard
+
+Here’s a preview of my interactive Power BI dashboard analyzing bank loans and recoveries:
+
+![Bank Analytics Dashboard](Screenshot%20\(37\).png)
+
+**Key Insights:**
+
+* Loan distribution by **religion**, **caste**, and **age group**
+* **State-wise** and **region-wise** loan performance
+* Key KPIs: *Total Loan Amount, Total Collection, Total Interest, Delinquent Loans Rate*
+* Visual filters for year, purpose, and grade segmentation
+
+---
+
+## 📈 Excel Dashboard
+
+An Excel-based dashboard highlighting:
+
+* Total Payments, Interest, Funded & Loan Amounts
+* Regional and Age-wise summaries
+* Loan recovery analysis using charts and pivot tables
+
+![Excel Dashboard](Screenshot%20\(36\).png)
+
+---
+
+## 🗄️ SQL Analysis
+
+Sample SQL queries used in the analysis:
+
+```sql
+-- Total Loan Amount Funded
+SELECT SUM(`Funded Amount`) AS Total_Loan_Funded
+FROM bank_data;
+
+-- Total Interest Collected
+SELECT SUM(`Interest Amount`) AS Total_Interest
+FROM bank_data;
+
+-- Region-wise Loan Distribution
+SELECT Region, SUM(`Loan Amount`) AS Total_Loan
+FROM bank_data
+GROUP BY Region;
+```
+
+---
+
+## 📉 Tableau Dashboard
+
+Created a Tableau dashboard for deeper insights and visual storytelling:
+
+* Loan trends across states
+* Recovery rate comparison
+* Interactive filters for loan type and borrower category
+
+---
+
+## 🧠 Key Learnings
+
+* Improved understanding of **data cleaning** and **data modeling**
+* Built skills in **visual analytics** using Power BI and Tableau
+* Learned to **integrate SQL outputs** into dashboards
+* Experience gained from **Data Analyst Internship at AI Variant**
+
+---
+
+## 🏁 Conclusion
+
+This Bank Analytics project demonstrates how business insights can be extracted from financial data using modern analytics tools. The interactive dashboards support better decision-making in the banking sector.
+
+---
+
+### 👤 Author
+
+**Srinadh Yadav**
+Data Analyst | Excel | Power BI | Tableau | SQL
+📧 [yadavsrinadh4@gmail.com]
+🌍 [GitHub Profile Link]
+
 

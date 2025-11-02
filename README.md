@@ -3,7 +3,7 @@
 The **Bank Analytics Dashboard** was created in **Microsoft Excel** using pivot tables, slicers, and charts.  
 It visualizes key metrics such as total payments, interest, funded amount, and loan amount across different **age groups, states, and customer categories**.
 
-![Bank Analytics Dashboard](Screenshot(36).png)
+Screenshot (36).png
 
 **Key Features:**
 - Interactive slicers for Grade, State, Caste, and Age  
